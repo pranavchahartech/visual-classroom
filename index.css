@@ -1,0 +1,147 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+.heading{
+    text-align:center;
+    font-size: xx-large;
+    
+}
+.items{
+    align-items:center;
+    font-size:larger
+}
+.nav {
+    background-color: rgb(83, 83, 191);
+    color: #721a1a;
+    padding: 10px;
+    
+    align-items: center;
+    
+}
+a{
+    color:#100404;
+    text-decoration: none;
+    font-family:bold;
+}
+.items {
+    display: flex;
+}
+
+.nav p, .items p {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #555;
+}
+
+p {
+    color: #100404;
+    margin-bottom: 20px;
+}
+
+#para1 {
+    margin-bottom: 30px;
+}
+
+.img2 {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-info h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .items {
+        margin-top: 10px;
+    }
+
+    img {
+        margin-top: 10px;
+    }
+}
+footer {
+    background-color: rgb(83, 83, 191);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align:center;
+    background-image:url(head1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+  
+}
+
+footer ul li a:hover {
+    color: #0099cc;
+}
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+background-color: white;}

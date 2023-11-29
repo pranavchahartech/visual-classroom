@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+div {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+div > div {
+    margin-bottom: 20px;
+}
+
+
+h1, h2 {
+    color: #333;
+}
+
+
+h2 + p {
+    color: #666;
+}
+
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+
+label {
+    display: flex;
+    align-items: center;
+    color:rgb(11, 2, 2);
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#Payment-button{
+    border:1px black solid;
+    width:149px;
+    text-decoration:none;
+    background-color:rgb(59, 231, 59);
+    color:black;
+    border-radius:2px;
+}
